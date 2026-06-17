@@ -111,7 +111,7 @@ async function sendPasswordResetEmail(email, token) {
       <p>Recebemos uma solicitação para redefinir a senha da sua conta no Projeto MDM.</p>
       <p><a href="${resetUrl}" target="_blank" rel="noopener noreferrer">Redefinir senha</a></p>
       <p>Se você não solicitou essa alteração, ignore esta mensagem.</p>
-      <p>Este link expira em 1 hora.</p>
+      <p>Este link expira em 1 hora, obrigado.</p>
     `,
   }));
 }
